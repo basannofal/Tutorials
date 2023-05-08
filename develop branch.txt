@@ -1,0 +1,13 @@
+develop branc
+
+how to create branch
+
+
+// check how many branch
+git branch
+
+// create new branch
+git checkout -b branchName
+
+// swith one brach to other branch
+git checkout otherBranchName
