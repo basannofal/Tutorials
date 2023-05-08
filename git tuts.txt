@@ -1,0 +1,94 @@
+$ git status == it is used for check directry status ex:- how many 
+	folder are modify and how many selected in simple word track
+	files.
+
+$ git init == it is used for initialize empty git repository it will 
+	create .git folder which is hidder folder
+
+$ git add --a or git add . == it is used to add or track all files in git 
+	repository not commited only track.
+
+$ git add 'filename' == singal file which you want to add in git 
+	repository.
+
+$ git commit -m 'your message' == it is used to commit changes in 
+	current directory
+
+$ git log == all information about that repository. like when and which
+	file changed.
+
+$ git clone 'git_url' == git clone use to retrive all files from github
+	to our local storage
+
+$ git clone 'git_url' folderName == this cmd use to retrive all files from github
+	to but first create folderName new folder or repository and 
+	store all file in this
+
+$ touch filename.ext == it is use for create new file in directory
+
+$ git diff  == it is use for we already tracked file by git add --a not
+	commited files and now we changed on this file so we can see what
+	changes in this file.
+
+$ git diff --staged == after tracking using git add --a we want to see
+	diffrence between commited file and tracked file
+
+$ git rm new.txt == for delete file from repository
+
+$ git mv new.txt == for rename or move file from repository
+
+$ git rm --cache filename.txt == it is used for untrack file like we
+	track any file using git add --a after some time we not need
+	to track this file then we can untrack using this command.
+
+$ rm -rf .git == it it a danger cmd bcz when we fire this cmd then 
+	all git data will lost and git repository also lost
+
+
+
+
+
+
+// some changes in github
+1) craete account
+2) genrate ssh key
+3) save in github setting
+
+
+
+
+
+
+
+// working with remote (github) repository
+
+1) init folder
+2) add files
+3) initial commit
+
+git remote add origin git@github.com:basannofal/tutorials.git -- this 
+	command create remote with origin name. (origin name is option
+	we can write any name)
+
+git remote == this is use for check any remote repository linked or not
+
+git remote -v == this cmd use for check how many remote 
+
+git branch -M main == assign master branch to main name
+
+git push -u origin main == all folder push in github repository
+
+
+
+
+
+// working with branch
+
+
+git branch == show all branches
+
+git checkout -b develop == create new branch with develope name you
+	can create multiple branches
+
+git checkout main == it is use to switch branch (now switch develop
+	to main)
