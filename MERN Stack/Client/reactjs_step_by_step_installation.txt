@@ -1,0 +1,69 @@
+1) first create folder your application
+
+2) create two folder 
+    1) server
+    2) client
+
+3) then move to client 
+    run :- cd client
+
+4) then create your project 
+    run :- npx create-react-app client
+
+5) wait for installation react app
+
+6) then install another dependencies 
+    like :- npm i react-router-dom
+
+7) then start your project
+    run :- npm start 
+
+8) then delete extra files 
+
+9) go to app index.js
+
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import {BrowserRouter} from 'react-router-dom'
+    import App from './App';
+    ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById("root"))
+
+10) then go to App.js
+
+    import React from 'react';
+    import {Routes, Route} from 'react-router-dom'
+    import './App.css';
+    import Home from './Home';
+    import Adminpanel from './Adminpanel'
+    
+    function App() {
+    return (
+    <>
+        <Routes>
+        <Route exact path="/" element={
+            <>
+                <Home />
+            </>
+        }></Route>
+        </Routes>
+        <Routes>
+            <Route path="/admin/:id" element={<Adminpanel />}></Route>
+        </Routes>
+    </>
+    );
+    }
+    export default App;
+
+
+
+11) now you can add new file then import in app.js then set path and build your application
+
+
+12) set proxy for connect to server 
+
+13) open package.json file and write proxy uppper dependencies block
+    "proxy": "http://localhost:8000",
