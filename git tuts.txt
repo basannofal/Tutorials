@@ -92,3 +92,6 @@ git checkout -b develop == create new branch with develope name you
 
 git checkout main == it is use to switch branch (now switch develop
 	to main)
+
+git merge branchName == it is use to merge given branch in current
+	branch (current branch and given branchName)
