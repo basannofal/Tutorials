@@ -130,3 +130,20 @@ git checkout -b develop == create new branch with develope name you
 
 git checkout main == it is use to switch branch (now switch develop
 	to main)
+
+
+
+// if you want to change your git hub email then you dont push any data in new email 
+// first you should remove a old account in your local computer and add new account permission then you can add or remove operation by using git
+
+// refrence website
+https://stackoverflow.com/questions/43573790/how-to-remove-git-account-from-local-machine-and-add-new-account
+
+
+step 1: serch -> manage web credentials   or control panel > credential manager > windows credentials
+
+step 2: windows credentials
+
+step 3: remove git data
+
+step 4: access new account
